@@ -1,0 +1,21 @@
+.header{
+    padding: 0 24px;
+    background-color: #313e42;
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+}
+.content{
+    min-height: calc(100vh - 64px - 63px);
+}
+.footer{
+    text-align: center;
+    padding: 24px 0;
+    background-color: #f0f2f5;
+    color: #999;
+    font-size: 12px;
+    border-top: 1px solid #e8e8e8;
+}

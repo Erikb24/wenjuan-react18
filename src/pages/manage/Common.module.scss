@@ -1,0 +1,24 @@
+
+.header{
+    display: flex;
+    // padding: 0 30px;
+    
+    .left{
+        flex: 1;
+        padding-left: 3px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.footer{
+    //居中展示
+    text-align: center;
+}
